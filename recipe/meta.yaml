@@ -1,7 +1,7 @@
 {% set name = "pytest-timeout" %}
-{% set version = "1.0.0" %}
+{% set version = "1.2.0" %}
 {% set hash_type = "sha256" %}
-{% set hash = "1465096be73e16df1e15d1b1453692428a7e15b997d756bc565aee0d12798ce1" %}
+{% set hash = "c29e3168f10897728059bd6b8ca20b28733d7fe6b8f6c09bb9d89f6146f27cb8" %}
 {% set ext = "tar.gz" %}
 
 package:
@@ -20,7 +20,7 @@ build:
 requirements:
   build:
     - python
-    - setuptools    
+    - setuptools
   run:
     - python
     - pytest >=2.8.0
