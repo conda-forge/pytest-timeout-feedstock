@@ -11,6 +11,18 @@ Summary: This is a plugin which will terminate tests after a certain timeout.
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pytest-timeout-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pytest-timeout-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/pytest-timeout-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pytest-timeout-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pytest-timeout-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pytest-timeout-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytest-timeout/badges/version.svg)](https://anaconda.org/conda-forge/pytest-timeout)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytest-timeout/badges/downloads.svg)](https://anaconda.org/conda-forge/pytest-timeout)
+
 Installing pytest-timeout
 =========================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `pytest-timeout` available on your
 ```
 conda search pytest-timeout --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pytest-timeout-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pytest-timeout-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pytest-timeout-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pytest-timeout-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pytest-timeout-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pytest-timeout-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytest-timeout/badges/version.svg)](https://anaconda.org/conda-forge/pytest-timeout)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytest-timeout/badges/downloads.svg)](https://anaconda.org/conda-forge/pytest-timeout)
 
 
 Updating pytest-timeout-feedstock
