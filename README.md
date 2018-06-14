@@ -14,12 +14,15 @@ Summary: This is a plugin which will terminate tests after a certain timeout.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/pytest-timeout-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pytest-timeout-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pytest-timeout-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pytest-timeout-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytest-timeout/badges/version.svg)](https://anaconda.org/conda-forge/pytest-timeout)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytest-timeout/badges/downloads.svg)](https://anaconda.org/conda-forge/pytest-timeout)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pytest--timeout-green.svg)](https://anaconda.org/conda-forge/pytest-timeout) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pytest-timeout.svg)](https://anaconda.org/conda-forge/pytest-timeout) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pytest-timeout.svg)](https://anaconda.org/conda-forge/pytest-timeout) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pytest-timeout.svg)](https://anaconda.org/conda-forge/pytest-timeout) |
 
 Installing pytest-timeout
 =========================
