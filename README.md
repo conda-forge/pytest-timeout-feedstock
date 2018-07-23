@@ -9,6 +9,8 @@ Feedstock license: BSD 3-Clause
 
 Summary: This is a plugin which will terminate tests after a certain timeout.
 
+pytest-timeout is a plugin which will terminate tests after a certain timeout.
+When doing so it will show a stack dump of all threads running at the time.
 
 
 Current build status
