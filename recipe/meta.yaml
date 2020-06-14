@@ -1,7 +1,6 @@
 {% set name = "pytest-timeout" %}
-{% set version = "1.3.4" %}
-{% set hash_type = "sha256" %}
-{% set hash = "80faa19cd245a42b87a51699d640c00d937c02b749052bfca6bae8bdbe12c48e" %}
+{% set version = "1.4.0" %}
+{% set hash = "d46426af764f108ca1bd18ca092307e1356c17f74388c396fd5447c2231318e6" %}
 {% set ext = "tar.gz" %}
 
 package:
@@ -11,7 +10,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.{{ ext }}
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ ext }}
-  {{ hash_type }}: {{ hash }}
+  sha256: {{ hash }}
 
 build:
   noarch: python
