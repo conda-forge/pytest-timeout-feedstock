@@ -1,6 +1,6 @@
 {% set name = "pytest-timeout" %}
-{% set version = "1.4.1" %}
-{% set hash = "6d0fb4ce74cebb81be252e4e0d9c2a91f30270b33208cfa0f1da6eed9abf18ac" %}
+{% set version = "1.4.2" %}
+{% set hash = "20b3113cf6e4e80ce2d403b6fb56e9e1b871b510259206d40ff8d609f48bda76" %}
 {% set ext = "tar.gz" %}
 
 package:
