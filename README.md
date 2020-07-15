@@ -5,7 +5,7 @@ Home: https://bitbucket.org/pytest-dev/pytest-timeout
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: This is a plugin which will terminate tests after a certain timeout.
 
