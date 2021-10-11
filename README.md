@@ -1,7 +1,7 @@
 About pytest-timeout
 ====================
 
-Home: https://bitbucket.org/pytest-dev/pytest-timeout
+Home: https://github.com/pytest-dev/pytest-timeout
 
 Package license: MIT
 
@@ -9,9 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-timeout-
 
 Summary: This is a plugin which will terminate tests after a certain timeout.
 
-Development: https://bitbucket.org/pytest-dev/pytest-timeout
-
-Documentation: https://pypi.python.org/pypi/pytest-timeout
+Development: https://github.com/pytest-dev/pytest-timeout
 
 pytest-timeout is a plugin which will terminate tests after a certain timeout.
 When doing so it will show a stack dump of all threads running at the time.
