@@ -1,6 +1,6 @@
 {% set name = "pytest-timeout" %}
-{% set version = "2.1.0" %}
-{% set hash = "c07ca07404c612f8abbe22294b23c368e2e5104b521c1790195561f37e1ac3d9" %}
+{% set version = "2.2.0" %}
+{% set hash = "3b0b95dabf3cb50bac9ef5ca912fa0cfc286526af17afc806824df20c2f72c90" %}
 {% set ext = "tar.gz" %}
 
 package:
@@ -20,10 +20,10 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
     - setuptools
   run:
-    - python >=3.6
+    - python >=3.7
     - pytest >=5.0.0
 
 test:
