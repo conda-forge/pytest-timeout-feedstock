@@ -14,7 +14,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: python -m pip install . --no-deps --ignore-installed
 
 requirements:
@@ -24,7 +24,7 @@ requirements:
     - setuptools
   run:
     - python >=3.7
-    - pytest >=5.0.0
+    - pytest >=7.0.0
 
 test:
   requires:
