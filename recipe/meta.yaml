@@ -1,6 +1,6 @@
 {% set name = "pytest-timeout" %}
-{% set version = "2.3.1" %}
-{% set hash = "12397729125c6ecbdaca01035b9e5239d4db97352320af155b3f5de1ba5165d9" %}
+{% set version = "2.4.0" %}
+{% set hash = "7e68e90b01f9eff71332b25001f85c75495fc4e3a836701876183c4bcfd0540a" %}
 {% set ext = "tar.gz" %}
 
 package:
@@ -9,12 +9,12 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.{{ ext }}
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ ext }}
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
   sha256: {{ hash }}
 
 build:
   noarch: python
-  number: 2
+  number: 0
   script: python -m pip install . --no-deps --ignore-installed
 
 requirements:
